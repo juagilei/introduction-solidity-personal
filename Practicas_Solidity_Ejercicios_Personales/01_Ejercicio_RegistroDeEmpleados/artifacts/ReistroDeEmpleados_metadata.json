@@ -1,0 +1,176 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Empleados",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "idEmpleado",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "salario",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_idEmpleado",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_salario",
+						"type": "uint256"
+					}
+				],
+				"name": "actualizarSalarioEmpleado",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_idEmpleado",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_salario",
+						"type": "uint256"
+					}
+				],
+				"name": "agregarEmpleado",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_idEmpleado",
+						"type": "uint256"
+					}
+				],
+				"name": "eliminarEmpleado",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_idEmpleado",
+						"type": "uint256"
+					}
+				],
+				"name": "obtenerEmpleado",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "propietario",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"introduction-solidity/00. Practicas_Solidity/01_Ejercicio_RegistroDeEmpleados.sol": "ReistroDeEmpleados"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"introduction-solidity/00. Practicas_Solidity/01_Ejercicio_RegistroDeEmpleados.sol": {
+			"keccak256": "0x0844c7684b2ae6464c34fad58e388f354ec0933fdbe1ebac53048d42ad9847c4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1ef3ed0b103f917f0f96734a693bfb9447e140d0184aed45fb7462fe884bc30f",
+				"dweb:/ipfs/QmQHDRmERSZ8zxKsMo5KHSRNuDyXfHnH2d5JzkgjhwTtyn"
+			]
+		}
+	},
+	"version": 1
+}
