@@ -1,5 +1,5 @@
 const RegistroDeEmpleados = artifacts.require('RegistroDeEmpleados');
-const chai = require('chai');
+const chai = import('chai');
 const expect = chai.expect;
 
 contract('RegistroDeEmpleados', (accounts) => {

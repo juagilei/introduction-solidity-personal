@@ -4,6 +4,7 @@
     "mocha": "^10.2.0"
   },
   "dependencies": {
-    "solc": "^0.8.23-fixed"
+    "solc": "^0.8.23-fixed",
+    "truffle": "^5.5.19"
   }
 }
